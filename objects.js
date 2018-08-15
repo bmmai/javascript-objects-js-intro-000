@@ -8,6 +8,6 @@ function updatePlaylist (playlist, artistName, songTitle) {
 }
 
 function removeFromPlaylist(playlist, 'Slowride') {
-  Delete playlist['Beatles'];
+  delete playlist['Beatles'];
   return playlist;
 } 
